@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.layout-header h1 {
+  display: flex;
+  margin: 0;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.layout-header nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.layout-header nav a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.layout-footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.layout-footer p {
+  color: #333;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-list h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-card h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  color: #333;
+}
+
+.post-card p {
+  display: flex;
+  justify-content: center;
+  color: #666;
+  line-height: 1.6;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #999;
+}
