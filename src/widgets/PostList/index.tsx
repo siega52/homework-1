@@ -21,12 +21,14 @@ const PostList: React.FC = () => {
   ];
 
   return (
-    <div className="post-list">
-      <h2>Список постов</h2>
-      {mockPosts.map(post => (
-        <PostCard key={post.id} post={post} />
-      ))}
-    </div>
+    <>
+      <div className="post-list">
+        <h2>Список постов</h2>
+        {mockPosts.map(post => (
+          <PostCard key={post.id} post={post} />
+        ))}
+      </div>
+    </>
   );
 };
 
